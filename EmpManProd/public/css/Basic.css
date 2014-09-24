@@ -1,0 +1,55 @@
+body
+{
+	background: url('../images/LoginBG.jpg');
+}
+
+.IndexPageButton
+{
+	float:left;
+	width:100%;
+}
+
+.MenuHolderContainer
+{
+	
+}
+
+.MenuHolder
+{
+	margin:8px;
+}
+
+.btn
+{
+	margin-top:2px;
+	margin-bottom:2px;
+}
+
+.btn-menu
+{
+	display: block !important;
+}
+
+.RightSidedFormContainer
+{
+	margin:0px;
+	width:98%;
+	float: left;
+}
+
+.RightSidedForm
+{
+	margin:0px;
+	margin-left: 0px;
+	margin-top: 10px;
+	width:100%;
+}
+
+#FormTypeData
+{
+	overflow:scroll;
+	height:470px;
+}
+
+
+
