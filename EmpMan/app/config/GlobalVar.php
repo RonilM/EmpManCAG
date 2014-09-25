@@ -11,15 +11,28 @@ if($GV["Environment"]==="Development"){
 	$GV["EmployeeState"] = "reimbursements";
 	$GV["ManagerState"] = "Manager";
 	$GV["FinanceState"] = "Finance";
+
+	$GV["host"]  = '127.0.0.1';
+	$GV["database"]  = 'EmpMan';
+	$GV["username"]  = 'root';
+	$GV["password"]  = 'root';
+	$GV["port"]    = '3306';
 }
 elseif($GV["Environment"]==="Production"){
 
-	$GV["BaseAddress"] = "https://www.indiancag.org";
+	$GV["BaseAddress"] = "http://emp.indiancag.org";
+	$GV["Scope"] = "email profile";
 	$GV["ClientID"] = "666711050704-gnolf2kjuum95e6mkvgflb36h3fsl1i5.apps.googleusercontent.com";
 	$GV["ClientSecret"] = "sf-bSFKR0RmAb9DrPntdryxd";
 	$GV["EmployeeState"] = "reimbursements";
 	$GV["ManagerState"] = "Manager";
 	$GV["FinanceState"] = "Finance";
+
+	$GV["host"]  = 'localhost';
+	$GV["database"]  = 'empman';
+	$GV["username"]  = 'empman.indiancag';
+	$GV["password"]  = '98VMZRkpV1nv';
+	$GV["port"]    = '3306';
 }
 
 

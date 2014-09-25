@@ -1,5 +1,5 @@
 <?php
-
+include('GlobalVar.php');
 return array(
 
 	/*
@@ -54,14 +54,14 @@ return array(
 
 		'mysql' => array(
 			'driver'    => 'mysql',
-			'host'      => '127.0.0.1',
-			'database'  => 'EmpMan',
-			'username'  => 'root',
-			'password'  => 'root',
+			'host'      => $GV["host"],
+			'database'  => $GV["database"],
+			'username'  => $GV["username"],
+			'password'  => $GV["password"],
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',
-			'port'    => '3306',
+			'port'    => $GV["port"],
 		),
 
 		'pgsql' => array(
