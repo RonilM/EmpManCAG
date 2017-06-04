@@ -29,7 +29,7 @@ require __DIR__.'/LaravelData/bootstrap/autoload.php';
 | This bootstraps the framework and gets it ready for use, then it
 | will load up this application so that we can run it and send
 | the responses back to the browser and delight these users.
-|
+| Rushabbh boora - owner
 */
 
 $app = require_once __DIR__.'/LaravelData/bootstrap/start.php';
